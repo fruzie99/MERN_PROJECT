@@ -1,0 +1,41 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+   }
+   
+   .blog-card {
+    width: 50%;
+    margin: 2rem auto;
+    padding: 2rem;
+    box-shadow: 5px 5px 10px #ccc;
+    transition: box-shadow 0.3s ease;
+   }
+   
+   .blog-card:hover {
+    box-shadow: 10px 10px 20px #ccc;
+   }
+   
+   .blog-avatar {
+    background-color: #ff0000;
+   }
+   
+   .blog-content {
+    margin-top: 1rem;
+   }
+   
+   .blog-content hr {
+    margin: 1rem 0;
+   }
+   
+   .blog-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+   }
+   
+   .blog-action-icon {
+    margin-left: 0.5rem;
+   }

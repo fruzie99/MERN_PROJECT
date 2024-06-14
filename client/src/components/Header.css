@@ -1,0 +1,35 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+   }
+   
+   .header-container {
+    background: black;
+   }
+   
+   .header-title {
+    text-decoration: none;
+    color: #fff;
+   }
+   
+   .header-tabs {
+    margin-left: auto;
+    color: #fff;
+   }
+   
+   .header-tab {
+    color: #fff;
+    text-decoration: none;
+   }
+   
+   .header-buttons {
+    margin-left: auto;
+    display: flex;
+   }
+   
+   .header-button {
+    margin: 0.5rem;
+    border-radius: 10px;
+    color: #fff;
+   }
